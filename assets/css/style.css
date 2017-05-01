@@ -1,6 +1,5 @@
 ---
 ---
-@import "{{ site.theme }}";
 
 body {
   margin: 0 auto;
@@ -64,3 +63,5 @@ a {
 #header_wrap li a:hover {
     background-color: #111;
 }
+
+@import "{{ site.theme }}";
