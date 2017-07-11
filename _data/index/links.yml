@@ -1,0 +1,18 @@
+# links section data
+- last_name: Data Mining
+  first_name: Group
+  desc: Silesian University of Technology
+  website: http://www.zaed.aei.polsl.pl/index.php/pl/
+  email: Joanna.Polanska@polsl.pl
+
+- last_name: Mrukwa
+  first_name: Grzegorz
+  desc: Leader of the Spectre Team
+  website: https://spectre-team.github.io/
+  email: Grzegorz.Mrukwa@polsl.pl
+
+- last_name: Spectre
+  first_name: Team
+  desc: on GitHub
+  website: https://github.com/spectre-team
+  email: 
