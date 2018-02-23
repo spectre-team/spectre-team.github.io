@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-heartbeat
     - name: fa-laptop
-  desc: This project targets tools for tumor heterogeneity investigation in molecular imaging data. # Describe yourself.
+  desc: "Our project aims to create world-first open-source highly-extensible platform for storage and processing MSI datasets.<br/>We cooperate with world-class experts to deliver cutting-edge science into deployment."
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
