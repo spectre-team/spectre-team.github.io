@@ -1,0 +1,1 @@
+docker run --rm --volume="%cd%:/srv/jekyll" -p 35729:35729 -p 4000:4000 --name jekyll -it jekyll/jekyll jekyll serve
