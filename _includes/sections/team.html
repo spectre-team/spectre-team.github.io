@@ -1,0 +1,39 @@
+<div class="container" id="i18_team">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="team.team">Who are we?</span></h1>
+        </div>
+    </div>
+    <div class="row features-block">
+        <div class="col-lg-12">
+            <div class="vertical-container light-timeline center-orientation">
+                {% for person in site.data.index.team %}
+                {% assign loopindex = forloop.index | modulo: 2 %}
+                    <div class="management-team-member zoomIn {% if forloop.index == 1 %} block col-sm-8 {% else %} col-sm-6 {% endif %}">
+                        <div class="wow col-sm-4 {% if forloop.index == 1 %} col-sm-offset-3 {% endif %} {% if forloop.index != 1 %}{% if loopindex == 0 %} fadeInLeft {% else %} fadeInRight {% endif %} {% else %} zoomIn {% endif %}"
+                             style="margin-right: -30px;">
+                            <h1>
+                                <span class="navy" data-i18n="person.{{ person.name.i18n }}">{{ person.name.detail }}</span>
+                                <br />
+                                <span data-i18n="person.{{ person.surname.i18n }}">{{ person.surname.detail }}</span>
+                            </h1>
+                            <p>
+                                <span class="navy" data-i18n="person.{{ person.position.i18n }}"><strong> {{ person.position.detail }} </strong></span>
+                                <br />
+                                <span data-i18n="person.{{ person.description.i18n }}">{{ person.description.detail }} </span>
+                            </p>
+                        </div>
+                        <div class="wow {% if forloop.index != 1 %}{% if loopindex == 0 %} fadeInLeft {% else %} fadeInRight {% endif %} {% else %} zoomIn {% endif %}">
+                            <span data-i18n="person.{{ person.photo.i18n }}">
+                                <img src="/static/assets/img/team/{{ person.photo.detail }}"
+                                     width=300 height=300
+                                     style="margin-right: -30px;">
+                            </span>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

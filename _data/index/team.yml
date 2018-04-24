@@ -1,0 +1,47 @@
+- name:
+    detail: Grzegorz
+    i18n: ceo_name
+  surname:
+    detail: Mrukwa
+    i18n: ceo_surname
+  position:
+    detail: CEO & Founder
+    i18n: ceo_position
+  photo:
+    detail: Grzegorz.png
+    i18n: ceo_photo
+  description:
+    detail: More than 3 years in MSI data processing & other medical projects.
+    i18n: ceo_description
+
+- name:
+    detail: Ewelina
+    i18n: coo_name
+  surname:
+    detail: Mrukwa
+    i18n: coo_surname
+  position:
+    detail: COO & Sales Manager
+    i18n: coo_position
+  photo:
+    detail: Ewelina.png
+    i18n: coo_photo
+  description:
+    detail: Works with international trade. Determined enought to finish a marathon.
+    i18n: coo_description
+
+- name:
+    detail: Michał
+    i18n: research_tl_name
+  surname:
+    detail: Gallus
+    i18n: research_tl_surname
+  position:
+    detail: Research Team Leader
+    i18n: research_tl_position
+  photo:
+    detail: Michal.png
+    i18n: research_tl_photo
+  description:
+    detail: Optimization expert. Gathered knowledge in Intel.
+    i18n: research_tl_description
