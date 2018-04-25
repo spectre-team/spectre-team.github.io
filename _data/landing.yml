@@ -13,10 +13,10 @@
   tpl: sections/solution.html
   css:
 
-- id: friends_and_supporters
-  i18n: nav.friends_and_supporters
-  name: Our Friends & Supporters
-  tpl: sections/friends_and_supporters.html
+- id: team
+  i18n: nav.team
+  name: Team
+  tpl: sections/team.html
   css:
 
 - id: milestones
@@ -25,10 +25,10 @@
   tpl: sections/milestones.html
   css: timeline
 
-- id: team
-  i18n: nav.team
-  name: Team
-  tpl: sections/team.html
+- id: friends_and_supporters
+  i18n: nav.friends_and_supporters
+  name: Our Friends & Supporters
+  tpl: sections/friends_and_supporters.html
   css:
 
 #- id: skills
