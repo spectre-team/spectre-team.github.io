@@ -1,0 +1,17 @@
+- name: Data Mining Group
+  source: zaed.png
+
+- name: Silesian University of Technology
+  source: polsl.png
+
+- name: Institute of Oncology, Gliwice Branch
+  source: io.png
+
+- name: Upper Silesian Center for Scientific and Engineering Computations
+  source: geconii.png
+
+- name: Ministry of Science and Higher Education
+  source: mnisw.png
+
+- name: European Union
+  source: eu.png

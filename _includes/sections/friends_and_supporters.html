@@ -1,0 +1,22 @@
+<div class="container" id="i18_friends_and_supporters">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="friends_and_supporters.friends_and_supporters">Our Friends and Supporters</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
+            <p style="font-size: 30pt;"><span data-i18n="cooperation.des">{{ site.cooperation }}</span></p>
+        </div>
+    </div>
+    <div class="row features-block text-center">
+        <div class="col-lg-12 friends-logos">
+            {% for supporter in site.data.index.cooperation %}
+                <div class="slide">
+                    <img src="/static/assets/img/cooperation/{{supporter.source}}">
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
