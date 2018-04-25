@@ -28,7 +28,10 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-heartbeat
     - name: fa-laptop
-  desc: "Our project aims to create world-first open-source highly-extensible platform for storage and processing MSI datasets.<br/>We cooperate with world-class experts to deliver cutting-edge science into deployment."
+
+mission: Our mission is to save more <span class="navy">people's lives</span> through improvement of tumor <span class="navy">prevention</span>, earlier <span class="navy">diagnosis</span> and personalization of <span class="navy">therapy</span>.
+solution: We provide world-<span class="navy">first</span> open-source highly-<span class="navy">extensible</span> platform for storage and processing MSI datasets.
+cooperation: We cooperate with world-class experts to deliver cutting-edge <span class="navy">science into deployment</span>.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
