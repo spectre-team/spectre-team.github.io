@@ -7,6 +7,18 @@
   tpl: sections/mission.html
   css:
 
+- id: solution
+  i18n: nav.solution
+  name: Solution
+  tpl: sections/solution.html
+  css:
+
+- id: friends_and_supporters
+  i18n: nav.friends_and_supporters
+  name: Our Friends & Supporters
+  tpl: sections/friends_and_supporters.html
+  css:
+
 - id: milestones
   i18n: nav.milestones
   name: Milestones
