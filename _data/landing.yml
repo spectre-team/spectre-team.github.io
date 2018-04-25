@@ -12,11 +12,11 @@
   tpl: sections/about.html
   css:
 
-#- id: career
-#  i18n: nav.career
-#  name: Career
-#  tpl: career.html
-#  css: timeline
+- id: milestones
+  i18n: nav.milestones
+  name: Milestones
+  tpl: sections/milestones.html
+  css: timeline
 
 #- id: skills
 #  i18n: nav.skills

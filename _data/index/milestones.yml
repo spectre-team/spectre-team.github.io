@@ -1,0 +1,127 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: European Startup Days
+    i18n: esd_2018
+  desc:
+    detail: presentation during the startup challenge session and during European Economic Congress 2018
+    i18n: esd_2018_description
+  date:
+    detail: May. 2018
+    i18n: esd_2018_date
+  location:
+    detail: European Startup Days, Spodek, Katowice
+    i18n: esd_2018_location
+  icon: fa-plus-square
+
+- name:
+    detail: Microsoft Imagine Cup 2018 Finals
+    i18n: msic_2018
+  desc:
+    detail: presentation during the final gala
+    i18n: msic_2018_description
+  date:
+    detail: Apr. 2018
+    i18n: msic_2018_date
+  location:
+    detail: Insitute of Industrial Design, Warsaw
+    i18n: msic_2018_location
+  icon: fa-plus-square
+
+- name:
+    detail: European Molecular Imaging Meeting
+    i18n: emim_2018
+  desc:
+    detail: poster about proposed software
+    i18n: emim_2018_description
+  date:
+    detail: Mar. 2018
+    i18n: emim_2018_date
+  location:
+    detail: European Molecular Imaging Meeting, San Sebastian, Spain
+    i18n: emim_2018_location
+  icon: fa-plus-square
+
+- name:
+    detail: Gliwice Scientific Meetings
+    i18n: gsn
+  desc:
+    detail: three posters about our research
+    i18n: gsn_description
+  date:
+    detail: Nov. 2017
+    i18n: gsn_date
+  location:
+    detail: Gliwice Scientific Meetings, Gliwice
+    i18n: gsn_location
+  icon: fa-plus-square
+
+- name:
+    detail: OurCon V
+    i18n: ourcon_v
+  desc:
+    detail: presentation about our methods
+    i18n: ourcon_v_description
+  date:
+    detail: Sep. 2017
+    i18n: ourcon_v_date
+  location:
+    detail: OurCon V, Doorn, Netherlands
+    i18n: ourcon_v_location
+  icon: fa-plus-square
+
+- name:
+    detail: Team growing
+    i18n: team_growing
+  desc:
+    detail: Daniel Babiak, Maciej Gamrat and Roman Lisak joined our team
+    i18n: team_growing_description
+  date:
+    detail: Jun. 2017
+    i18n: team_growing_date
+  location:
+    detail: Silesian University of Technology, Gliwice
+    i18n: team_growing_location
+  icon: fa-plus-square
+
+- name:
+    detail: EU funding for students
+    i18n: eu_funding
+  desc:
+    detail: dedicated to conferences and competitions (MNiSW/2017/114/DIR/NN2)
+    i18n: eu_funding_description
+  date:
+    detail: Jun. 2017
+    i18n: eu_funding_date
+  location:
+    detail: Ministry of Science and Higher Education
+    i18n: eu_funding_location
+  icon: fa-plus-square
+
+- name:
+    detail: First release
+    i18n: first_release
+  desc:
+    detail: presented as a poster during conference
+    i18n: first_release_description
+  date:
+    detail: Apr. 2017
+    i18n: first_release_date
+  location:
+    detail: European Molecular Imaging Meeting, Cologne, Germany
+    i18n: first_release_location
+  icon: fa-plus-square
+
+- name:
+    detail: First assembly
+    i18n: first_assembly
+  desc:
+    detail: during a meeting with prof. Polańska
+    i18n: first_assembly_description
+  date:
+    detail: Jan. 2017
+    i18n: first_assembly_date
+  location:
+    detail: Silesian University of Technology, Gliwice
+    i18n: first_assembly_location
+  icon: fa-plus-square
